@@ -8,8 +8,10 @@
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
 
-PROJECT:	Project Name
-VERSION:	Versoin Number
+PROJECT:	One code per week
+AUTHOR:		Philippe Lalancette
+VERSION:	1.0.0
+DATE:		2025-07-18
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
@@ -80,23 +82,23 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #ce8460;
+  background: #FE7743;
   color: #fff;
-  border-color: #ce8460;
+  border-color: #FE7743;
 }
 .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
-  background: #ce8460 !important;
-  border-color: #ce8460 !important;
+  background: #FE7743 !important;
+  border-color: #FE7743 !important;
 }
 
 .btn-outline-primary {
   background: transparent;
   color: #696c6d;
-  border-color: #ce8460;
+  border-color: #FE7743;
 }
 .btn-outline-primary:active, .btn-outline-primary:hover, .btn-outline-primary.focus, .btn-outline-primary.active {
-  background: #ce8460 !important;
-  border-color: #ce8460 !important;
+  background: #FE7743 !important;
+  border-color: #FE7743 !important;
   color: #fff;
 }
 
@@ -111,7 +113,7 @@ h6, .h6 {
 }
 
 body {
-  background-color: #fff;
+  background-color: #D7D7D7;
   overflow-x: hidden;
 }
 
@@ -163,7 +165,7 @@ select:focus {
 }
 
 a:hover {
-  color: #ce8460;
+  color: #FE7743;
 }
 
 .slick-slide {
@@ -213,11 +215,11 @@ a:hover {
 }
 
 .bg-primary {
-  background: #ce8460 !important;
+  background: #FE7743 !important;
 }
 
 .text-primary {
-  color: #ce8460 !important;
+  color: #FE7743 !important;
 }
 
 .text-color {
@@ -291,6 +293,18 @@ a:hover {
   font-size: 80%;
 }
 
+header{
+  background-color: #273F4F;
+}
+
+select {
+  background-color: #447D9B;
+}
+
+navbar  a {
+  color: #447D9B !important;
+}
+
 .nav-item {
   margin: 0;
 }
@@ -299,10 +313,10 @@ a:hover {
 }
 
 .navbar-white .navbar-nav .nav-link {
-  color: #1c1d1f;
+  color: #447D9B;
 }
 .navbar-white .navbar-nav .nav-link:hover {
-  color: #ce8460;
+  color: #FE7743;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -326,7 +340,7 @@ a:hover {
   transition: 0.3s ease;
   opacity: 0;
   transform: scale(0.8);
-  background: #fff;
+  background: #D7D7D7;
   border-radius: 10px;
 }
 @media (max-width: 991px) {
@@ -362,7 +376,7 @@ a:hover {
   margin-bottom: 10px;
 }
 .navbar .dropdown-item:hover {
-  color: #ce8460 !important;
+  color: #FE7743 !important;
   background: transparent;
 }
 
@@ -416,7 +430,7 @@ a:hover {
   color: #1c1d1f;
 }
 .post-title:hover {
-  color: #ce8460;
+  color: #FE7743;
 }
 
 .post-meta li {
@@ -428,7 +442,7 @@ a:hover {
   border-bottom: 1px dotted #ddd;
 }
 .post-meta a:hover {
-  color: #ce8460;
+  color: #FE7743;
 }
 
 .recent-thumb-alt {
@@ -436,7 +450,7 @@ a:hover {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  background-color: #ce8460;
+  background-color: #FE7743;
   text-align: center;
 }
 .recent-thumb-alt::first-letter {
@@ -455,7 +469,7 @@ a:hover {
   font-size: 14px;
 }
 .social-icons a:hover {
-  color: #ce8460;
+  color: #FE7743;
 }
 
 .social-icons-rounded {
@@ -472,8 +486,8 @@ a:hover {
   border: 1px solid #ddd;
 }
 .social-icons-rounded a:hover {
-  color: #ce8460;
-  border-color: #ce8460;
+  color: #FE7743;
+  border-color: #FE7743;
 }
 
 .post-slider {
@@ -518,7 +532,7 @@ a:hover {
   outline: 0;
 }
 .slick-arrow:hover {
-  background: #ce8460;
+  background: #FE7743;
 }
 
 .prevArrow {
@@ -546,7 +560,7 @@ a:hover {
   color: #696c6d;
 }
 .pagination .page-item .page-link:hover {
-  background: #ce8460;
+  background: #FE7743;
   color: #fff;
 }
 .pagination .page-item .page-link:focus {
@@ -556,7 +570,7 @@ a:hover {
   border-radius: 50%;
 }
 .pagination .page-item.active .page-link {
-  background: #ce8460;
+  background: #FE7743;
   color: #fff;
 }
 
@@ -583,7 +597,7 @@ a:hover {
   border-bottom: 1px dotted #ddd;
 }
 .content a:hover {
-  color: #ce8460;
+  color: #FE7743;
 }
 .content ol,
 .content ul {
@@ -608,7 +622,7 @@ a:hover {
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  background: #ce8460;
+  background: #FE7743;
   left: 3px;
   top: 8px;
 }
@@ -707,7 +721,7 @@ a:hover {
   font-size: 20px !important;
   color: #696c6d;
   padding: 20px 40px;
-  border-left: 2px solid #ce8460;
+  border-left: 2px solid #FE7743;
   margin: 40px 0;
   font-weight: bold;
   background: #f0f0f0;
@@ -747,7 +761,7 @@ a:hover {
   display: none;
 }
 .code-tabs .nav-tabs .nav-item.active {
-  background: #ce8460;
+  background: #FE7743;
 }
 .code-tabs .nav-tabs .nav-item.active .nav-link {
   color: #fff;
@@ -784,14 +798,14 @@ a:hover {
 .form-group .form-control:focus {
   outline: 0;
   box-shadow: none;
-  border-color: #ce8460;
+  border-color: #FE7743;
 }
 .form-group textarea.form-control {
   height: 120px;
 }
 
 .widget {
-  background: #fff;
+  background: #D7D7D7;
   margin-bottom: 40px;
 }
 .widget-title {
@@ -799,11 +813,12 @@ a:hover {
   margin-bottom: 15px;
 }
 .widget-title span {
-  background: #fff;
+  background: #D7D7D7;
   position: relative;
   padding-right: 5px;
   z-index: 1;
 }
+
 .widget-title::before {
   position: absolute;
   content: "";
@@ -818,7 +833,7 @@ a:hover {
 }
 .widget-search input {
   border: 0;
-  border-bottom: 1px dotted #ddd;
+  border-bottom: 1px dotted #D7D7D7;
   width: 100%;
   height: 40px;
 }
@@ -857,7 +872,7 @@ a:hover {
   color: #1c1d1f;
 }
 .widget-list li a:hover {
-  color: #ce8460;
+  color: #FE7743;
 }
 .widget-list-inline li {
   margin-bottom: 10px;
@@ -870,8 +885,8 @@ a:hover {
   color: #696c6d;
 }
 .widget-list-inline li a:hover {
-  border-color: #ce8460;
-  background: #ce8460;
+  border-color: #FE7743;
+  background: #FE7743;
   color: #fff;
 }
 .widget-post {
@@ -891,7 +906,7 @@ a:hover {
   padding: 5px 0;
 }
 .footer-list a:hover {
-  color: #ce8460;
+  color: #FE7743;
 }
 
 .subscription .form-control {
@@ -905,7 +920,7 @@ a:hover {
   left: 10px;
   top: 10px;
   font-size: 18px;
-  color: #ce8460;
+  color: #FE7743;
 }
 
 .quote {
@@ -915,14 +930,31 @@ a:hover {
 }
 .quote i {
   font-size: 24px;
-  color: #ce8460;
+  color: #FE7743;
   margin-right: 10px;
 }
 .quote p {
   font-style: italic;
 }
 .quote-by {
-  color: #ce8460;
+  color: #FE7743;
+}
+
+footer {
+  background-color: #273F4F;
+  color: #447D9B;
+}
+
+footer p {
+  color: #447D9B;
+}
+
+footer h6 {
+  color: #FE7743;
+}
+
+footer a {
+  color: #447D9B;
 }
 
 .scroll-top {
@@ -938,7 +970,7 @@ a:hover {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #ce8460;
+  background-color: #FE7743;
   color: #fff;
   text-align: center;
   line-height: 50px;
