@@ -781,7 +781,7 @@ navbar  a {
 .title-bordered h4,
 .title-bordered h5,
 .title-bordered h6 {
-  background: #f0f0f0;
+  background: #FE7743;
   padding: 10px 25px;
   margin-bottom: 0;
   border-radius: inherit;
@@ -907,6 +907,10 @@ navbar  a {
 }
 .footer-list a:hover {
   color: #FE7743;
+}
+
+.content > ul {
+  margin-top: 20px;
 }
 
 .subscription .form-control {
